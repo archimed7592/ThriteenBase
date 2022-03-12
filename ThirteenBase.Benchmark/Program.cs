@@ -14,10 +14,10 @@ Intel Core i7-9700 CPU 3.00GHz, 1 CPU, 8 logical and 8 physical cores
   DefaultJob : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
 
 
-|                Method |       Mean |     Error |    StdDev | Ratio | Allocated |
-|---------------------- |-----------:|----------:|----------:|------:|----------:|
-|   OnlineCacheTopLevel | 300.372 ms | 1.6331 ms | 1.3637 ms | 1.000 |      4 KB |
-| OnlineCacheMultiLevel |  10.244 ms | 0.0566 ms | 0.0530 ms | 0.034 |     14 KB |
-|           StaticCache |   2.133 ms | 0.0131 ms | 0.0123 ms | 0.007 |      2 KB |
+|                Method |      Mean |    Error |   StdDev | Ratio | Allocated |
+|---------------------- |----------:|---------:|---------:|------:|----------:|
+|   OnlineCacheTopLevel | 479.99 ms | 2.941 ms | 2.751 ms |  1.00 |      2 KB |
+| OnlineCacheMultiLevel | 142.04 ms | 0.869 ms | 0.813 ms |  0.30 |     17 KB |
+|           StaticCache |  28.58 ms | 0.551 ms | 0.566 ms |  0.06 |      2 KB |
 
 */
